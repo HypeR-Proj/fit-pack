@@ -1,6 +1,7 @@
 # SPDX-FileCopyrightText: 2026 roolrz
 # SPDX-License-Identifier: Apache-2.0
 
+
 [package]
 name = "hyper-fit-pack"
 version = "0.0.0"
@@ -9,8 +10,13 @@ license = "Apache-2.0"
 publish = false
 repository = "https://github.com/HypeR-Proj/fit-pack"
 
+[dependencies]
+
 [dependencies.hyper-vm-image]
 version = "=0.0.0"
+path = "../../lib/vm-image"
+
+[lints]
 
 [lints.clippy]
 unwrap_used = "deny"
@@ -19,6 +25,10 @@ panic = "deny"
 
 [lints.rust]
 unsafe_op_in_unsafe_fn = "deny"
+
+[patch]
+
+[patch.crates-io]
 
 [patch.crates-io.hyper-abi]
 path = "../../sdk/abi"
