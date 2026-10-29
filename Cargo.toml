@@ -7,9 +7,10 @@ version = "0.0.0"
 edition = "2024"
 license = "Apache-2.0"
 publish = false
+repository = "https://github.com/HypeR-Proj/fit-pack"
 
-[dependencies]
-hyper-vm-image = { path = "../../lib/vm-image" }
+[dependencies.hyper-vm-image]
+version = "=0.0.0"
 
 [lints.clippy]
 unwrap_used = "deny"
@@ -19,6 +20,8 @@ panic = "deny"
 [lints.rust]
 unsafe_op_in_unsafe_fn = "deny"
 
-[patch.crates-io]
-hyper-abi = { path = "../../sdk/abi" }
-hyper-os = { path = "../../stdlib/rust/hyper-os" }
+[patch.crates-io.hyper-abi]
+path = "../../sdk/abi"
+
+[patch.crates-io.hyper-os]
+path = "../../stdlib/rust/hyper-os"

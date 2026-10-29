@@ -24,5 +24,15 @@
       "--manifest-path",
       "tools/fit-pack/Cargo.toml"
     ]
-  ]
+  ],
+  "cargo_context": {
+    "Cargo.toml": {
+      "workspace": null,
+      "membership": null,
+      "dependency_paths": {
+        "/dependencies/hyper-vm-image": "lib/vm-image"
+      },
+      "inherited_dependencies": {}
+    }
+  }
 }
