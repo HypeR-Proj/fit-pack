@@ -16,5 +16,19 @@
       "--manifest-path",
       "tools/fit-pack/Cargo.toml"
     ]
-  ]
+  ],
+  "build": {
+    "steps": [
+      [
+        "cargo",
+        "build",
+        "--manifest-path",
+        "{source}/Cargo.toml",
+        "--target-dir",
+        "{out}",
+        "--release",
+        "--locked"
+      ]
+    ]
+  }
 }
