@@ -13,7 +13,6 @@ repository = "https://github.com/HypeR-Proj/fit-pack"
 [dependencies]
 
 [dependencies.hyper-vm-image]
-version = "=0.1.0"
 path = "../../../lib/vm-image"
 
 [lints]
