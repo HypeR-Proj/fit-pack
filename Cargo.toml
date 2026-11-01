@@ -14,7 +14,7 @@ repository = "https://github.com/HypeR-Proj/fit-pack"
 
 [dependencies.hyper-vm-image]
 version = "=0.0.0"
-path = "../../lib/vm-image"
+path = "../../../lib/vm-image"
 
 [lints]
 
@@ -31,7 +31,7 @@ unsafe_op_in_unsafe_fn = "deny"
 [patch.crates-io]
 
 [patch.crates-io.hyper-abi]
-path = "../../sdk/abi"
+path = "../../../sdk/abi"
 
 [patch.crates-io.hyper-os]
-path = "../../stdlib/rust/hyper-os"
+path = "../../../stdlib/rust/hyper-os"
