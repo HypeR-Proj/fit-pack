@@ -14,7 +14,7 @@
       "cargo",
       "test",
       "--manifest-path",
-      "tools/fit-pack/Cargo.toml"
+      "{component}/Cargo.toml"
     ]
   ],
   "build": {
