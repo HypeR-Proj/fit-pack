@@ -8,7 +8,7 @@ version = "0.0.0"
 
 [[package]]
 name = "hyper-fit-pack"
-version = "0.0.0"
+version = "0.1.0"
 dependencies = [
  "hyper-vm-image",
 ]
@@ -30,7 +30,7 @@ dependencies = [
 
 [[package]]
 name = "hyper-vm-image"
-version = "0.0.0"
+version = "0.1.0"
 dependencies = [
  "hyper-abi",
  "hyper-os",
